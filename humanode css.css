@@ -1,0 +1,70 @@
+
+body{
+    background-color: grey;
+    background-image: url(image3.jpeg);
+}
+h1 {
+    text-align: center;
+    color: white;
+    width: 80%;
+    text-decoration: italic;
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    width: 80%;
+    font-style: oblique;
+    font-size: 50px;
+}
+
+p{
+    text-align: center;
+    color: white;
+    width: 80%;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#two  {
+    margin-left: 120px;
+    margin-top: -40px;
+}
+
+#three  {
+    margin-left: 270px;
+    margin-top: -40px;
+}
+
+button {
+    background-color: black;
+    color: #ffa260;
+    border: 2px solid;
+    font-size: 1em;
+    transition: color 0.23s, border-color 0.25s, box-shadow 0.25s, transform 0.25s;
+}
+
+button:hover{
+    border-color: #f1ff5c;
+    color: white;
+    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+    /* the above has 5 values, x-offset, y-offset, blurred radius and spread radius*/
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
+
+a {
+    color: grey;
+    font-size: 2em;
+    transition: color 0.23s, border-color 0.25s, box-shadow 0.25s, transform 0.25s;
+}
+
+a:hover{
+    border-color: #f1ff5c;
+    color: blue;
+    /* the above has 5 values, x-offset, y-offset, blurred radius and spread radius*/
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
